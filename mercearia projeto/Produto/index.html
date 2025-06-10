@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <a href="/cralosrp2/mercearia projeto/Home/home.html" class="btn-home">Voltar para Home</a>
+    
+    <form action="Produto.php" method= "POST">
+        
+        <label for="nomeprod">Nome do Produto</label>
+        <input type="text" name="nomeprod" id="nomeprod">
+
+        <label for="tipoprod">Tipo do Produto</label>
+        <input type="text" name="tipoprod" id="tipoprod"> 
+
+        <label for="quantprod">Quatidade de Produtos</label>
+        <input type="text" name="quantprod" id="quantprod">
+
+        <label for="datavalidade">Data de Validade</label>
+        <input type="date" name="datavalidade" id="datavalidade">
+
+        <label for="descproduto">Descrição do Produto:</label>
+        <textarea id="descproduto" name="descproduto" rows="4" cols="50"></textarea>    
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
